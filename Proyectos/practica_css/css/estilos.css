@@ -1,0 +1,51 @@
+/*Creeamo*/
+section h2{
+    color: red;
+}
+
+#titulo{
+    color: red;
+}
+
+#logo{
+    margin-top: 200px;
+}
+/*selectores con dos clases*/
+
+.azul.tituloCurso{
+    color: yellow;
+
+}
+
+img#logo{
+
+    width: 500px;
+
+}
+
+/*Elementos html  clases*/
+
+section.seccion{
+    background-color: orange;
+}
+div.noticia{
+    background: blue;
+}
+/*Selecto univesal*/
+
+
+
+#listado-cursos *{
+    font-size: 70px;
+}
+.noticia *{
+    font-size: 70px;
+}
+
+h2,h3,p,a{
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline;
+}

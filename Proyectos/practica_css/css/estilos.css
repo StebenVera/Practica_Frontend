@@ -49,3 +49,40 @@ h2,h3,p,a{
 nav ul li {
     display: inline;
 }
+
+ul#listado-cursos li ul > li {
+    color: green;
+}
+
+ul#listado-cursos + p {
+    background-color: greenyellow!important;
+}
+a[href*="google.com"]
+    {
+        background-color: blueviolet;
+    }
+
+/*Selectores atributo*/
+[id="noticias"]
+{
+    background-color: crimson!important;
+}
+
+div.menu nav ul li a:focus,
+div.menu nav ul li a:active,
+div.menu nav ul li a:visited{
+    color: yellow;
+}
+
+div.menu nav ul li a:hover{
+    color: orchid;
+}
+
+div.menu nav ul li:first-child a{
+    text-decoration: none!important;
+}
+
+div.menu nav ul li:nth-child(1){
+    background-color: fuchsia;
+}
+

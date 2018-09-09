@@ -82,7 +82,7 @@ div.menu nav ul li:first-child a{
     text-decoration: none!important;
 }
 
-div.menu nav ul li:nth-child(1){
+div.menu nav ul li:nth-child(odd){
     background-color: fuchsia;
 }
 

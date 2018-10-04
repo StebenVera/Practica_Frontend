@@ -1,0 +1,158 @@
+/*ARCHIVOS PARA ESTILOS DE LOS CONTENEDORES*/
+
+
+/*PROPIEDAD BACKGROUND*/
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+body{
+    background-color: grey;
+    
+}
+
+.gran-promocion{
+    display: table;
+    width: 100%;
+    background-color: yellow;
+    height: 300px;  
+}
+.texto-promocion{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+div.contenedor{
+    background-color: white;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1px;
+    
+}
+/*
+div.contenido{
+    overflow: auto;
+}*/
+.clearfix:before,
+.clearfix:after{
+    content:'';
+    display:table;
+    
+
+}
+
+.clearfix:after{
+    clear:both;
+}
+
+header div.logo-contenedor{
+    background-color: orange;
+    margin-bottom: 50px;
+
+    padding-left: 30%;
+    padding-right: 30%;
+    
+}
+
+h2{
+    margin-bottom: 40px;
+}
+nav{
+    width: 100%;
+    background-color: green;
+    height: 80px;
+    padding: 20px 10px;
+}
+
+nav ul {
+    padding: 0;
+}
+nav ul li{
+    float:left;
+    margin-right: 25px;
+    list-style: none;
+}
+nav ul li a{
+    color:white;
+}
+footer{
+    background-color: orange;
+    padding-top: 40px;
+}
+
+footer nav{
+    background-color: transparent!important;
+}
+
+aside{
+    background-color: white;
+    background-image: url(../img/html5.png),url(../img/html5.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: 10px 20px,center center;
+}
+
+main{
+    width: 700px;
+    float: left;
+}
+aside{
+
+    width: 300px;
+    float: right;
+}
+table{  
+    background-color: aquamarine;
+    width: 50%;
+    
+    margin-left: 20%;
+    
+    
+}
+img.logocss{
+    width: 80px;
+   
+}
+
+section#cursos{
+    
+    background: orange;
+    border: 30px double white;
+    
+    
+}
+
+section#introduccion{
+    
+    background: yellow;
+    padding: 80px;
+    
+   
+}
+
+.rojo{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.azul{
+    background-color: blue;
+}
+
+div.padre{
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+div.hijo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -180px;
+    top: -100px;
+}

@@ -1,0 +1,34 @@
+/**Font Family**/
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular.woff2') format('woff2'),
+         url('alexbrush-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    letter-spacing: 10px;
+}
+body{
+    font-family: Arial, Helvetica, serif;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3{
+    font-family: 'Times New Roman';
+    font-style: oblique;
+}
+
+p{
+    font-family: 'alex_brushregular';
+    font-weight: bold;
+    line-height: 80px;
+    text-align: justify;
+}
+
+section.seccion ul li ul span{
+    color: greenyellow;
+}

@@ -50,7 +50,7 @@ h1 {
 
 .contenedor-flex {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     justify-content: flex-end;
